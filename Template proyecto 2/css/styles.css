@@ -13,6 +13,7 @@
  .fondopost{
   background-color: #fcfbe3;
  }
+ 
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -3994,7 +3995,7 @@ textarea.form-control-lg {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   white-space: nowrap;
 }
 .navbar-nav {
