@@ -61,22 +61,23 @@
                             <!-- To make this form functional, sign up at-->
                             <!-- https://startbootstrap.com/solution/contact-forms-->
                             <!-- to get an API token!-->
+
+
                             <form id="contactForm" data-sb-form-api-token="API_TOKEN"
-                                action="https://formspree.io/f/xknyaaaq"
-                                method="POST"
-                                >
+                            action="https://formspree.io/f/xayvzwor"
+                            method="POST">
                                 <div class="form-floating">
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" name="text" />
                                     <label for="name">Nombre</label>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">Escribir un nombre</div>
                                 </div>
                                 <div class="form-floating">
-                                    <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" />
+                                    <input class="form-control" id="email" type="email" placeholder="Enter your email..." data-sb-validations="required,email" name="email" />
                                     <label for="email">Email</label>
                                     <div class="invalid-feedback" data-sb-feedback="email:required">Escribir email</div>
                                 </div>
                                 <div class="form-floating">
-                                    <input class="form-control" id="tel" type="tel" placeholder="Enter your phone number..." data-sb-validations="required" />
+                                    <input class="form-control" id="tel" type="tel" placeholder="Enter your phone number..." data-sb-validations="required" name="tel" />
                                     <label for="phone">Numero de telefono</label>
                                     <div class="invalid-feedback" data-sb-feedback="phone:required">Escribir número de telefono</div>
                                 </div>
@@ -102,10 +103,12 @@
                                 <!-- an error submitting the form-->
                                 <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al enviar!</div></div>
                                 <!-- Submit Button-->
-                                <button class="btn btn-primary text-uppercase active" id="submitButton" type="submit">Enviar</button>
+                                <button class="btn btn-primary text-uppercase active" type="submit">Enviar</button>
                                 
                             </form>
-                            <form
+                        
+
+                            <!-- <form
                             action="https://formspree.io/f/xknyaaaq"
                             method="POST"
 >
@@ -113,11 +116,12 @@
                                     Email:
                                     <input type="email" name="email">
                                 </label>
+                                <br>
                                 <label class="form-floating">
                                     Nombre:
                                     <input name="name"></input>
-                                    <br>
                                 </label>
+                                <br>    
                                 <label class="form-floating" >
                                     Telefono:
                                     <input name="telefono"></input>
@@ -128,11 +132,10 @@
                                     <textarea name="message"></textarea>
                                 </label>
                                 
-                                <!-- your other form fields go here -->
                                 <br>
                                 <br>
                                 <button class="btn btn-primary text-uppercase active" type="submit">Enviar</button>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                 </div>
